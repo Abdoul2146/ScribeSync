@@ -277,7 +277,7 @@ class _NoteDetailScreenState extends State<NoteDetailScreen> {
     const modelName =
         'gemini-1.5-flash'; // Use the correct model name for Gemini 1.5 Flash
     const apiKey =
-        'AIzaSyD5hxfgrnsqXho0y5AU4GXTEjNnqNh0uK8'; // Replace with your actual API key
+        'Your-Gemini-api-key'; // Replace with your actual API key
 
     final url = Uri.parse(
       'https://generativelanguage.googleapis.com/v1beta/models/$modelName:generateContent?key=$apiKey',
